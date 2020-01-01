@@ -2,7 +2,7 @@ class Artist
   @@all = []
   @@songs = []
   attr_accessor :name, :song 
-  def initialize
+  def initialize(name, song)
     @name = name 
     @@all << name 
     @@songs << song 

@@ -4,7 +4,7 @@ class Genre
   def initialize(name, song)
     @name = name 
     @song = song 
-    @@all << name  
+    @@all << self   
   end
   
   def song.all
@@ -12,7 +12,8 @@ class Genre
   end 
   
   def songs
-    @@all.collect do |genre
+    self.collect do |genre|
+      
     
   
 end 

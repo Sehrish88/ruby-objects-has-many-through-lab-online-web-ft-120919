@@ -13,7 +13,8 @@ class Genre
   
   def songs
     self.collect do |genre|
-      
+      song.genre 
+  end 
     
   
 end 

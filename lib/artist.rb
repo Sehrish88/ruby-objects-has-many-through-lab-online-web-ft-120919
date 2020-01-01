@@ -12,7 +12,8 @@ class Artist
     @@all
   end 
   
-  def new_song
-    
+  def new_song(song)
+    @@songs << song
   end 
+  
 end 
